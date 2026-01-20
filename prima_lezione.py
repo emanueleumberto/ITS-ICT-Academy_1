@@ -79,3 +79,4 @@ n = bool(n)
 print(n, type(n))
 n = str(n)
 print(n, type(n))
+
