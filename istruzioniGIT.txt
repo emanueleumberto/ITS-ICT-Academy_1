@@ -1,0 +1,20 @@
+# Istruzioni di configurazione di git
+git config --global --list
+git config --global user.name "vostro nome"
+git config --global user.email "vostra email"
+
+# Creare un nuovo progetto GIT in locale
+git init
+
+# Istruzioni su GIT
+git status
+
+git add nomefile.ext
+git add .ext
+git add .
+
+git commit -m "messaggio"
+git remote add origin https://github.com/vostro-account-github/vostra-repo.git
+git branch -M main
+git push -u origin main
+
